@@ -1,0 +1,18 @@
+- take into account human reaction time. get measurements of table. <- note that making the ball slower just makes it easier for players, and they can already play at the old (faster) speed.
+- the ball cannot go faster than human reaction. should probably be somewhere around the limit <- if it goes near limit, the ball is probably getting smaller and is probably harder to watch.
+- forces: drag, elasticity and deformity of the ball, magnus, etc.
+- consider what the greatest angled shot may be (or spin shot).
+- Consider HD resolution when filming a game?
+
+The Problem:
+	Assuming:
+		Mass per area of the ball stays constant
+		Paddle is a spring, ball does not deform significantly
+	want to slow the game down as much as possible without compromsing play:
+		most notably spin of the ball
+	
+	
+	Two questions:
+		overall rally time should be increased, so analyze in flight of the ball
+		analyze ball on table part
+	

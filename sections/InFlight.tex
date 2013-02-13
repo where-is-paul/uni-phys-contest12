@@ -1,0 +1,46 @@
+%% LyX 1.6.7 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{amsbsy}
+\usepackage{esint}
+\usepackage{babel}
+
+\begin{document}
+
+\section*{In Flight Trajectory}
+
+To derive the in flight trajectory of the ping pong ball, we subject
+it to three forces: gravity, drag by air resistance and Magnus force.
+The free body diagram of the ping pong ball is shown in Figure (??),
+and we can use it to derive the differential equation governing the
+trajectory. We can immediately consider the following equations,\[
+\mathbf{F}=\mathbf{F}_{G}+\mathbf{F}_{M}+\mathbf{F}_{D}\]
+
+
+\[
+\mathbf{F}_{G}=-m\cdot g\mathbf{\hat{k}}\]
+\[
+\mathbf{F}_{D}=-\frac{1}{2}\rho C_{D}(\pi R)^{2}||\mathbf{v}||\mathbf{v}\]
+
+
+where \textbf{$\mathbf{F}_{G}$}, \textbf{$\mathbf{F}_{D}$} are the
+regular equations often used. We denote $m$ as the mass of the ball,
+$g$ as the acceleration due to gravity, $\rho$ as the air density,
+$C_{D}$ as the drag coefficient, and $R$ as the radius of the ball.
+To derive the Magnus force takes a little more effort. Using the Kutta-Joukowski
+Lift Theorem for a cylinder, we find that $\mathbf{F}_{M}=\rho(2\pi R)^{2}(\mathbf{\boldsymbol{\omega}}\times\mathbf{v})$
+{[}1{]}. We can then just integrate over the sphere along the axis
+of rotation, to find that $\mathbf{F}_{M}=\int_{-R}^{R}\rho(2\pi R)^{2}(\mathbf{\boldsymbol{\omega}}\times\mathbf{v})=\frac{16}{3}\pi^{2}\rho R^{3}(\mathbf{\boldsymbol{\omega}}\times\mathbf{v})$.
+With that we find that\[
+\mathbf{F}=m\frac{d^{2}r}{dt^{2}}=-m\cdot g\mathbf{\hat{k}+}\frac{16}{3}\pi^{2}\rho R^{3}(\mathbf{\boldsymbol{\omega}}\times\mathbf{v})-\frac{1}{2}\rho C_{D}(\pi R)^{2}||\mathbf{v}||\mathbf{v}\]
+
+
+by taking the sum of the individual forces. We further assume that
+the angular velocity is non-constant, and thus decreases over time
+due to drag torque. We may use an analogous formula for the drag torque
+found in {[}2{]} where $\boldsymbol{\tau}_{D}=-\frac{1}{2}C_{\omega}\rho R^{5}||\boldsymbol{\omega}||\boldsymbol{\omega}$.
+When numerically solving these differential equations, we can also
+adjust the rotational velocity in parallel to the main calculation.
+\end{document}

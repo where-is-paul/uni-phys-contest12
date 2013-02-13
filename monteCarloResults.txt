@@ -1,0 +1,115 @@
+MONTE CARLO RESUTS
+
+r = 0.19
+## BAD DATA
+monte_carlo([0.75125, 0, 0.4], 10, 150, 1000)
+	avg_path = 7.3837
+	avg_vel = 2.4903
+
+monte_carlo([0.75125, 0, 0.4], 15, 150, 1000)
+	avg_path = 8.318
+	avg_vel = 3.382
+	
+monte_carlo([0.75125, 0, 0.4], 20, 150, 1000)
+	avg_path = 9.1184
+	avg_vel = 3.9468
+	
+ monte_carlo([0.75125, 0, 0.4], 25, 150, 1000)
+	avg_path = 11.206
+	avg_vel = 4.456
+	
+r = 0.20
+
+
+
+## NEW DATA
+r = 0.019
+
+monte_carlo([0.75125, 0, 0.4], 25, 150, 1000)
+	avg_path = 12.899
+	avg_vel = 5.631
+	num_valid = 11
+	
+monte_carlo([0.75125, 0, 0.4], 20, 150, 1000)
+	avg_path = 9.6885
+	avg_vel = 4.661
+	num_valid = 17
+
+monte_carlo([0.75125, 0, 0.4], 15, 150, 1000)
+	avg_path = 8.213
+	avg_vel = 4.1802
+	num_valid = 22
+	
+monte_carlo([0.75125, 0, 0.4], 10, 150, 1000)
+	avg_path = 6.6037
+	avg_vel = 3.3209
+	num_valid = 50	
+	
+monte_carlo([0.75125, 0, 0.4], 5, 150, 1000)
+	avg_path = 3.9783
+	avg_vel = 1.85
+	num_valid = 180	
+	
+r = 0.02
+
+monte_carlo([0.75125, 0, 0.4], 25, 150, 1000)
+	avg_path = 12.292
+	avg_vel = 5.6788
+	num_valid = 13
+	
+monte_carlo([0.75125, 0, 0.4], 20, 150, 1000)
+	avg_path = 8.9129
+	avg_vel = 4.5252
+	num_valid = 15
+
+monte_carlo([0.75125, 0, 0.4], 15, 150, 1000)
+	avg_path = 8.9104
+	avg_vel = 4.0434
+	num_valid = 28
+	
+monte_carlo([0.75125, 0, 0.4], 10, 150, 1000)
+	avg_path = 6.7772
+	avg_vel = 3.2703
+	num_valid = 43	
+	
+monte_carlo([0.75125, 0, 0.4], 5, 150, 1000)
+	avg_path = 3.838
+	avg_vel = 1.7842
+	num_valid = 176	
+	
+r = 0.021
+
+monte_carlo([0.75125, 0, 0.4], 25, 150, 1000)
+	avg_path = 9.2435
+	avg_vel = 4.3181
+	stdev_path = 6.9808
+	stdev_vel = 0.97779
+	num_valid = 16
+
+monte_carlo([0.75125, 0, 0.4], 20, 150, 1000)
+	avg_path = 11.146
+	avg_vel = 4.0409
+	stdev_path = 6.35
+	stdev_vel = 0.95643
+	num_valid = 13
+
+monte_carlo([0.75125, 0, 0.4], 15, 150, 1000)
+	avg_path = 10.379
+	avg_vel = 4.1056
+	stdev_path = 4.7398
+	stdev_vel = 0.8319
+	num_valid = 26
+
+monte_carlo([0.75125, 0, 0.4], 10, 150, 1000)
+	avg_path = 7.3327
+	avg_vel = 3.1666
+	stdev_path = 3.072
+	stdev_vel = 0.73753
+	num_valid = 43
+
+monte_carlo([0.75125, 0, 0.4], 5, 150, 1000)
+	avg_path = 3.86
+	avg_vel = 1.7119
+	stdev_path = 0.68316
+	stdev_vel = 0.25053
+	num_valid = 137

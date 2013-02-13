@@ -1,0 +1,52 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{MAIN}
+Y.~Ogawa A.~Nakashima, Y.~Kobayashi and Y.~Hayakawa, \emph{Modeling of rebound
+  phenomenon between ball and racket rubber with spinning effect}, ICCAS-SICE
+  (2009), 2295 --2300.
+
+\bibitem{ITTF}
+International Table~Tennis Federation, \emph{The laws of table tennis},
+  handbook, 2012/2013.
+
+\bibitem{HISTORY}
+The International Table~Tennis Federation, \emph{A comprehensive history of
+  table tennis}, handbook, 2010.
+
+\bibitem{ITTF-STATS}
+S.~Toyoshima H.~Tang, M.~Mizoguchi, \emph{Speed and spin characteristics of the
+  40mm table tennis ball}, ITTF (2000).
+
+\bibitem{RUSSIANS}
+Y.~Kvurt J.~Miles N.~Lukerchenko, I.~Keita, \emph{Experimental evaluation of
+  the drag torque, drag force and magnus force acting on a rotating prolate
+  spheroid}, Colloquium Fluid Dynamics (2010).
+
+\bibitem{STATS}
+et~al. N.~Yuza, \emph{Game analysis of table tennis in top japanese player of
+  different playing styles}, ITTF (1992).
+
+\bibitem{NASA1}
+T.~Benson (NASA), \emph{Lift of a rotating cylindar -
+  http://www.grc.nasa.gov/www/k-12/airplane/cyl.html}, Web Article, 2010.
+
+\bibitem{WIKI}
+M.~Rhodes, \emph{Introduction to particle technology}, 2008.
+
+\bibitem{FORCE}
+S.~I. Rubinow and Joseph~B. Keller, \emph{The transverse force on a spinning
+  sphere moving in a viscous fluid}, J. Fluid Mech. \textbf{2011} (1961),
+  447--459.
+
+\bibitem{HEIGHT}
+Z.~F.~Qin W.~Xie, K.C.~Teh, \emph{Speed and spin of the 40mm table tennis ball
+  and the effects on elite players}, ISBS (2002).
+
+\end{thebibliography}

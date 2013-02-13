@@ -1,0 +1,3 @@
+1. http://www.grc.nasa.gov/WWW/k-12/airplane/cyl.html - Kutta-Joukowski Theorem for cylinders
+2. drag torque paper.
+3. http://www.engineeringtoolbox.com/drag-coefficient-d_627.html

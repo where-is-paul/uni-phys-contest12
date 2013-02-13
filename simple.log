@@ -1,0 +1,40 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdftex 2012.11.18)  18 NOV 2012 13:48
+entering extended mode
+**C:/Users/Paul/Dropbox/Online*Resources/My*Homework/Misc/UPhasCon2012/simple.b
+ib
+
+("C:/Users/Paul/Dropbox/Online Resources/My Homework/Misc/UPhasCon2012/simple.b
+ib"
+Overfull \hbox (68.91162pt too wide) in paragraph at lines 31--38
+[]\tenrm @MiscNASA1, au-thor = T. Ben-son (NASA), TI-TLE = Lift of a Ro-tat-ing
+ Cylin-dar - http://www.grc.nasa.gov/WWW/k-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm M
+.\tenrm i
+.\tenrm s
+.etc.
+
+
+Overfull \hbox (45.02264pt too wide) in paragraph at lines 67--74
+[]\tenrm @MiscNASA2, au-thor = T. Ben-son (NASA), TI-TLE = Shape Ef-fect on Dra
+g - http://www.grc.nasa.gov/WWW/k-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm M
+.\tenrm i
+.\tenrm s
+.etc.
+
+)
+*
+! Emergency stop.
+<*> ...es/My*Homework/Misc/UPhasCon2012/simple.bib
+                                                  
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,151 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+In Flight Trajectory
+\end_layout
+
+\begin_layout Standard
+To derive the in flight trajectory of the ping pong ball, we subject it
+ to three forces: gravity, drag by air resistance and Magnus force.
+ The free body diagram of the ping pong ball is shown in Figure (??), and
+ we can use it to derive the differential equation governing the trajectory.
+ We can immediately consider the following equations,
+\begin_inset Formula \[
+\mathbf{F}=\mathbf{F}_{G}+\mathbf{F}_{M}+\mathbf{F}_{D}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\mathbf{F}_{G}=-m\cdot g\mathbf{\hat{k}}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\mathbf{F}_{D}=-\frac{1}{2}\rho C_{D}(\pi R)^{2}||\mathbf{v}||\mathbf{v}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\series bold
+
+\begin_inset Formula $\mathbf{F}_{G}$
+\end_inset
+
+
+\series default
+, 
+\series bold
+
+\begin_inset Formula $\mathbf{F}_{D}$
+\end_inset
+
+
+\series default
+ are the regular equations often used.
+ We denote 
+\begin_inset Formula $m$
+\end_inset
+
+ as the mass of the ball, 
+\begin_inset Formula $g$
+\end_inset
+
+ as the acceleration due to gravity, 
+\begin_inset Formula $\rho$
+\end_inset
+
+ as the air density, 
+\begin_inset Formula $C_{D}$
+\end_inset
+
+ as the drag coefficient, and 
+\begin_inset Formula $R$
+\end_inset
+
+ as the radius of the ball.
+ To derive the Magnus force takes a little more effort.
+ Using the Kutta-Joukowski Lift Theorem for a cylinder, we find that 
+\begin_inset Formula $\mathbf{F}_{M}=\rho(2\pi R)^{2}(\mathbf{\boldsymbol{\omega}}\times\mathbf{v})$
+\end_inset
+
+ [1].
+ We can then just integrate over the sphere along the axis of rotation,
+ to find that 
+\begin_inset Formula $\mathbf{F}_{M}=\int_{-R}^{R}\rho(2\pi R)^{2}(\mathbf{\boldsymbol{\omega}}\times\mathbf{v})=\frac{16}{3}\pi^{2}\rho R^{3}(\mathbf{\boldsymbol{\omega}}\times\mathbf{v})$
+\end_inset
+
+.
+ With that we find that
+\begin_inset Formula \[
+\mathbf{F}=m\frac{d^{2}r}{dt^{2}}=-m\cdot g\mathbf{\hat{k}+}\frac{16}{3}\pi^{2}\rho R^{3}(\mathbf{\boldsymbol{\omega}}\times\mathbf{v})-\frac{1}{2}\rho C_{D}(\pi R)^{2}||\mathbf{v}||\mathbf{v}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+by taking the sum of the individual forces.
+ We further assume that the angular velocity is non-constant, and thus decreases
+ over time due to drag torque.
+ We may use an analogous formula for the drag torque found in [2] where
+ 
+\begin_inset Formula $\boldsymbol{\tau}_{D}=-\frac{1}{2}C_{\omega}\rho R^{5}||\boldsymbol{\omega}||\boldsymbol{\omega}$
+\end_inset
+
+.
+ When numerically solving these differential equations, we can also adjust
+ the rotational velocity in parallel to the main calculation.
+\end_layout
+
+\end_body
+\end_document
